@@ -5,7 +5,7 @@ package com.renhaixyz.common.xmlbean;
  */
 public class TextUtils {
     public static boolean isEmpty(String text) {
-        if (text == null || "".equals("")) {
+        if (text == null || "".equals(text)) {
             return true;
         } else {
             return false;
